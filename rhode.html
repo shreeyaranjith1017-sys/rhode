@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhode Skin - Desktop</title>
+    <link rel="stylesheet" href="rhode.css">
+</head>
+<body>
+
+    <!--NAV ONLY-->
+    <nav class="navbar">
+
+        <!--3 LINE MENU-->
+        <input type="checkbox" id="toggle">
+        <label for="toggle" class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </label>
+
+        <!--LOGO-->
+        <div class="logo">
+            <img src="rhodepink-removebg-preview.png" alt="Rhode Logo" class="logo-img" height="150px">
+        </div>
+
+        <!--CART-->
+        <div class="cart">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart">
+                <circle cx="9" cy="21" r="1" ></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+            <div class="badge">0
+            </div>
+        </div>
+
+        <!--MENU DRAWER-->
+        <div class="drawer">
+            <input type="radio" name="nav-tab" id="tabskin" checked>
+            <input type="radio" name="nav-tab" id="tablip">
+            <input type="radio" name="nav-tab" id="tabsets">
+
+            <div class="menu-tabs">
+                <label for="tabskin">SKIN</label>
+                <label for="tablip">LIP+CHEEK</label>
+                <label for="tabsets">SETS</label>
+            </div>
+
+            <div class="menu-products">
+
+                <div class="content-group skin-content">
+
+                    <div class="menu-card">
+                        <div class="card-img">
+                            <img src="kit.jpg" alt="Kit">
+                        </div>
+                        <div class="card-text">
+                            <h4>THE RHODE KIT</h4>
+                            <p>Four daily skin essentials</p>
+                        </div>
+                        <div class="badge-pill">only at rhode</div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="card-img">
+                            <img src="eye.jpg" alt="eye">
+                        </div>
+                        <div class="card-text">
+                            <h4>PEPTIDE EYE PREP</h4>
+                            <p>Depuffing eye patches</p>
+                        </div>
+                        <div class="badge-pill">new</div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="card-img">
+                            <img src="milky.jpg" alt="Milky">
+                        </div>
+                        <div class="card-text">
+                            <h4>GLAZING MILK</h4>
+                            <p>Ceramide facial essence</p>
+                        </div>
+                    </div>
+        
+                    <button class="menu-btn"><a href="shop-skin.html">SHOP MORE SKIN</a></button>
+                </div>
+
+
+                <div class="content-group lip-content">
+                    <div class="menu-card">
+                        <div class="card-img">
+                            <img src="liptints.jpg" alt="liptints">
+                        </div>
+                        <div class="card-text">
+                            <h4>PEPTIDE LIP TINTS</h4>
+                            <p>Sheer-but-buildable color that melts onto lips for a hint of tint and rich, glossy finish</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="card-img">
+                            <img src="pocketblush.png" alt="pocketblush">
+                        </div>
+                        <div class="card-text">
+                            <h4>POCKET BLUSHES</h4>
+                            <p>Our on-the-go cream blush wakes up cheeks and lips with a satiny, 
+                                diffused flush that melts on smoothly and stays all day</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="card-img">
+                            <img src="lipshaper.jpg" alt="lipshaper">
+                        </div>
+                        <div class="card-text">
+                            <h4>LIP SHAPER</h4>
+                            <p>combines soft-focus color and high-performance skincare to give your lips dimension</p>
+                        </div>
+                    </div>
+        
+                    <button class="menu-btn"><a href="shop-lip.html">SHOP MORE</a></button>
+                </div>
+
+                <div class="content-group sets-content">
+                    <div class="menu-card">
+                        <div class="card-img">
+                            <img src="winter.png" alt="winter">
+                        </div>
+                        <div class="card-text">
+                            <h4>WINTER SET</h4>
+                            <p>Cozy hydration that fits in your carry-on</p>
+                        </div>
+                        <div class="badge-pill">new</div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="card-img">
+                            <img src="lipset.jpg" alt="lipset">
+                        </div>
+                        <div class="card-text">
+                            <h4>LIP TINT SET</h4>
+                            <p>Curate your collection of Peptide Lip Tints in four shades of your choice</p>
+                        </div>
+                        <div class="badge-pill">most sold</div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="card-img">
+                            <img src="onthego.jpg" alt="onthego">
+                        </div>
+                        <div class="card-text">
+                            <h4>ON-THE-GO SET</h4>
+                            <p>Take your rhode on the go. Four essentials to throw in your bag</p>
+                        </div>
+                    </div>
+        
+                    <button class="menu-btn"><a href="shop-sets.html">SHOP MORE SETS</a></button>
+                </div>
+                <hr class="menu-divider">
+                <div class="menu-footer">
+                    <a href="#">ABOUT</a>
+                    <a href="#">RHODE FUTURES</a>
+                    <a href="#">IMPACT</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">ACCOUNT</a>
+        
+                    <div class="region-select">Country/region: <strong>United States (USD $)</strong></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Welcome to rhode section-->
+    <div class="hero-section">
+        <img src="bgfinal.png" class="hero-bg" alt="Rhode Hero">
+
+        <div class="tagline-container">
+            <p class="tagline-text">WELCOME TO THE WORLD OF RHODE</p>
+        </div>
+
+    </div>
+    <hr class="hrs"><hr class="hrs"><hr class="hrs"><hr class="hrs"><hr class="hrs"><hr class="hrs"><hr class="hrs">
+
+
+    <!--new-->
+    <div class="ani">
+        <p class="new">New Arrivals!</p><br>
+        <span class="pnew">snatch the latest + grab the greatest</span><br>
+        <hr class="hr">
+    </div>
+    <!--PRODUCT 1-->
+    <div class="product-card ani">
+        <div class="product1">
+            <div class="layout">
+                <div class="best"><p>BEST SELLER</p></div>
+
+                <div class="milk">
+                    <img src="milk.jpg" alt="Glazing Milk" style="width: 100%; 
+                    border-radius: 20px; display: block;">
+                </div>
+
+                <div class="deets">
+                
+                    <h1 class="title">Glazing Milk Ceramide</h1>
+            
+                    <div class="reviews">
+                        <span> ♣♣♣♣♣ </span>
+                        <span class="stars">(1,240 Reviews)</span>
+                    </div>
+
+                    <p class="info">
+                    A potent, nutrient-rich essence with a milky texture that leaves sken feeling hydrated and glowy while boosting 
+                    the skin barrier over time.
+                    </p>
+            
+                    <div class="pricebox">
+                        <span class="pricetag">buy now at</span>
+                        <span class="amount">$32.00</span>
+                    </div>
+            
+                    <button class="buy">
+                        BUY NOW
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" 
+                        stroke-linecap="round" stroke-linejoin="round" style="margin-left: 10px;"> 
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line> <path d="M16 10a4 4 0 0 1-8 0" >   
+                        </path>
+                        </svg>
+                    </button>
+
+                    <button class="buy">
+                        ADD TO CART 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                    </button>
+
+                    <div class="stock">
+                        <span>In stock, ready to ship</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="hrs">
+    <!--PRODUCT 2-->
+    <div class="product-card ani">
+    <div class="product2">
+        <div class="layout">
+            <div class="winter">
+                <img src="winter.png" alt="Winter Set" style="width: 100%; 
+                border-radius: 20px; display: block;">
+            </div>
+        
+        <div class="deets">
+            <h1 class="title">Winter Set Essentials</h1>
+            
+            <div class="reviews">
+                <span> ♣♣♣♣ </span>
+                <span class="stars">(240 Reviews)</span>
+            </div>
+
+            <p class="info">
+                Cozy hydration that fits in your carry-on. 
+                Our limited edition kit bundles three winter essentials in the mini rhode bubble bag.
+            </p>
+            
+            <div class="pricebox">
+                <span class="pricetag">buy now at</span>
+                <span class="amount">$90.00</span>
+            </div>
+            
+            <button class="buy">
+                BUY NOW
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" 
+                stroke-linecap="round" stroke-linejoin="round" style="margin-left: 10px;"> <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line> <path d="M16 10a4 4 0 0 1-8 0" >   
+                </path></svg>
+            </button>
+            <button class="buy">
+                ADD TO CART 
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+            </button>
+            <div class="stock">
+                <span>In stock, ready to ship</span>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <hr class="hrs"><hr class="hrs"><hr class="hrs"><hr class="hrs"><hr class="hrs"><hr class="hrs">
+
+
+    <!--SHOP BY CAT-->
+    <section class="catslide">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2" >
+        <input type="radio" name="slider" id="slide3" >
+
+        <h1>Shop by Category</h1><hr>
+        <div class="slidewrap">
+            <div class="inslide">
+                <div class="slide slideskin">
+                    <a href="shop-skin.html" class="conbox">
+                        <h3>SKIN</h3>
+                        <p>Glazed, hydrated, and happy skin.</p>
+                    </a>
+                </div>
+
+                <div class="slide slidelip">
+                    <a href="shop-lip.html" class="conbox">
+                        <h3>LIP+CHEEK</h3>
+                        <p>Buildable color for a natural flush and tint.</p>
+                    </a>
+                </div>
+
+                <div class="slide slideset">
+                    <a href="shop-sets.html" class="conbox">
+                        <h3>SETS</h3>
+                        <p>The complete routine in one set.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <label for="slide3" class="leftarr1">&lt;</label>
+            <label for="slide2" class="rightarr1">&gt;</label>
+            <label for="slide1" class="leftarr2">&lt;</label>
+            <label for="slide3" class="rightarr2">&gt;</label>
+            <label for="slide2" class="leftarr3">&lt;</label>
+            <label for="slide1" class="rightarr3">&gt;</label>
+        </div>
+    </section>
+    
+    <!--BANNER-->
+    <div class="banner">
+        
+        <div class="marquee">
+            <span>Glazed Skin</span> • <span>Cruelty Free</span> • <span>Vegan</span> • <span>Dermatologist Tested</span> • <span>Paraben Free</span> •
+            <span>Glazed Skin</span> • <span>Cruelty Free</span> • <span>Vegan</span> • <span>Dermatologist Tested</span> • <span>Paraben Free</span> •
+            <span>Glazed Skin</span> • <span>Cruelty Free</span> • <span>Vegan</span> • <span>Dermatologist Tested</span> • <span>Paraben Free</span> •
+            <span>Glazed Skin</span> • <span>Cruelty Free</span> • <span>Vegan</span> • <span>Dermatologist Tested</span> • <span>Paraben Free</span> •
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="last"><img src="rhodebrown-removebg-preview.png"></div>
+        <p>&copy; 2026 RhodeSkin. All rights reserved.</p>
+        <div class="social">Instragram   |   YouTube   |   X </div> 
+    </footer>
+</body>
+</html>
